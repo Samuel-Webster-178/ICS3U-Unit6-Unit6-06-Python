@@ -4,6 +4,8 @@
 # Created on March 2022
 # This module contains unicode characters
 
+dictionary = {}
+
 # Adding Items
 dictionary[" "] = "0x20"
 dictionary["!"] = "0x21"  # Can't Add in 22 since it is a Quotation Mark (")
