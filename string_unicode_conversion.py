@@ -12,9 +12,7 @@ import unicode
 def convert_to_unicode(string):
     unicode_string = []
     for counter1 in range(len(string)):
-        for key, value in unicode.dictionary.items():
-            if string[counter1] == key:
-                unicode_string.append(value)
+        unicode_string.append(unicode.dictionary[string[counter1]])
     return unicode_string
 
 
